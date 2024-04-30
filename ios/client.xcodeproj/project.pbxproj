@@ -14,6 +14,11 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-client-clientTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-client-clientTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		CD98911C8A3445B2BE4FBF8B /* eye_closed.png in Resources */ = {isa = PBXBuildFile; fileRef = B15E65FC0EA345D5B4864773 /* eye_closed.png */; };
+		2E2ED3B317BA4C91A307A5DD /* eye_open.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6417FB5C554AFFA8511FD6 /* eye_open.png */; };
+		D4B104DAEAE24B379D1077E7 /* ravel_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A946FFAA34CE4634B33391AB /* ravel_logo.png */; };
+		153BF92D71FB449CBB6099C4 /* upload.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C74D25856C4676BCF1F558 /* upload.png */; };
+		38195A77CB1B41C886B6210F /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 2143C31500104D3586C3535C /* avatar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = client/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-client-clientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-client-clientTests.release.xcconfig"; path = "Target Support Files/Pods-client-clientTests/Pods-client-clientTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		B15E65FC0EA345D5B4864773 /* eye_closed.png */ = {isa = PBXFileReference; name = "eye_closed.png"; path = "../src/assets/eye_closed.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0B6417FB5C554AFFA8511FD6 /* eye_open.png */ = {isa = PBXFileReference; name = "eye_open.png"; path = "../src/assets/eye_open.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A946FFAA34CE4634B33391AB /* ravel_logo.png */ = {isa = PBXFileReference; name = "ravel_logo.png"; path = "../src/assets/ravel_logo.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		80C74D25856C4676BCF1F558 /* upload.png */ = {isa = PBXFileReference; name = "upload.png"; path = "../src/assets/upload.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2143C31500104D3586C3535C /* avatar.png */ = {isa = PBXFileReference; name = "avatar.png"; path = "../src/assets/avatar.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +132,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				D118F2BDACF345BBB3FB0B18 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +158,19 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		D118F2BDACF345BBB3FB0B18 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				B15E65FC0EA345D5B4864773 /* eye_closed.png */,
+				0B6417FB5C554AFFA8511FD6 /* eye_open.png */,
+				A946FFAA34CE4634B33391AB /* ravel_logo.png */,
+				80C74D25856C4676BCF1F558 /* upload.png */,
+				2143C31500104D3586C3535C /* avatar.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -243,6 +267,11 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				CD98911C8A3445B2BE4FBF8B /* eye_closed.png in Resources */,
+				2E2ED3B317BA4C91A307A5DD /* eye_open.png in Resources */,
+				D4B104DAEAE24B379D1077E7 /* ravel_logo.png in Resources */,
+				153BF92D71FB449CBB6099C4 /* upload.png in Resources */,
+				38195A77CB1B41C886B6210F /* avatar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

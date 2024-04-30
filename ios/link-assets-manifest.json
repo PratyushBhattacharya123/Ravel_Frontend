@@ -1,0 +1,25 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/avatar.png",
+      "sha1": "f2102dc087d41b6b58de1ee5a09b5dbaeed5583b"
+    },
+    {
+      "path": "src/assets/eye_closed.png",
+      "sha1": "d3bc13e347c393d1ac111d42f91e64b45ddcc407"
+    },
+    {
+      "path": "src/assets/eye_open.png",
+      "sha1": "49cd2e582efb9110ff62e8c219483ebfae792789"
+    },
+    {
+      "path": "src/assets/ravel_logo.png",
+      "sha1": "ca25399dbb32c2a0bb3e0a735cbeabc4ad9dfc8d"
+    },
+    {
+      "path": "src/assets/upload.png",
+      "sha1": "cd1035489283c58beb2a12286c74f4166e7b63c6"
+    }
+  ]
+}
